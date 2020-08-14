@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
+using System.Console;
 
 public class XML
 {
@@ -21,5 +22,7 @@ public class XML
         var writer = XmlWriter.Create(stream, settings);
         serializer.Serialize(writer, item, ns);
         stream.Close();
+        
+        Console.WriteLine("hello world")
     }
 }
