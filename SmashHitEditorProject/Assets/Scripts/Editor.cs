@@ -19,12 +19,12 @@ public class Editor : MonoBehaviour
     Material Selectmat = null;
     Transform currentSelected;
     Box selectedBox;
-    private void Start()
+    void Start()
     {
         g = new Material(gridmat);
         
     }
-    private void Update()
+    void Update()
     {
         #region grid
         gridSize = new Vector2(s.size.x, s.size.z);
