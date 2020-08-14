@@ -10,10 +10,10 @@ public class Editor : MonoBehaviour
     public GameObject grid;
     public Material gridmat;
     public segmentconfig s;
-    public Camera maincamera;
+    public Camera mainCamera;
 
     public Vector2 gridSize;
-    Material g;
+    Material materialG;
 
     public GameObject cube;
     Material Selectmat = null;
