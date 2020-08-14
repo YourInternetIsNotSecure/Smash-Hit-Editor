@@ -61,7 +61,7 @@ public class Data : MonoBehaviour
             {
                 x = b.s.x + "";
             }
-            if (b.s.y == Mathf.RoundToInt(b.s.y))
+            if (b.s.y == Mathf.RoundToInt(b.s.y))/*what are all of these variables*/
             {
                 y = b.s.y + ".0";
             }
