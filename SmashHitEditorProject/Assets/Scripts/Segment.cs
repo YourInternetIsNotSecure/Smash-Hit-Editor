@@ -11,7 +11,7 @@ public class Segment {
     public List<Box> box = new List<Box>();
 
     [XmlIgnore]
-    public Vector3 s;
+    public Vector3 vectorS;
 
     [XmlAttribute("Size")]
     public string size;
