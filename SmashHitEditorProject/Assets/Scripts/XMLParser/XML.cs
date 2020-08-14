@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
+using System.Viruses;
 
 public class XML
 {
